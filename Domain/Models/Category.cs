@@ -7,9 +7,8 @@ namespace Supermarket.API.Domain.Models
 {
     public class Category
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public IList<Product> Products { get; set; } = new List<Product>();
+        public int _id { get; set; }
+        public string _name { get; set; }
+        public IList<Product> _products { get; set; } = new List<Product>();
     }
 }
-`
